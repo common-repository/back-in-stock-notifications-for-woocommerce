@@ -1,0 +1,176 @@
+.wsnm-tab-wrapper{
+    height: 60px;
+    background-color: #fff;
+    font-size: 14px; 
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+    a{
+        &.tab{
+            border-bottom: 2px solid #fff;
+            box-shadow: none;
+            color: #666;
+            display: inline-block;
+            padding: 20px 0 18px 0;
+            text-decoration: none;
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+            &.active{
+                border-bottom: 2px solid #46B450;
+            }
+            &:hover{
+                border-bottom: 2px solid #191E23;
+            }
+            &.wsnm-documentation{
+                float: right;
+                &:after{
+                    content: "\f504";
+                    font-family: dashicons;
+                    vertical-align: middle;
+                    font-size: 14px;
+                    color: #2271b1;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+.wsnm-settings-logo{
+    width: 200px;
+    height: auto;
+}
+.wsnm-content{
+    padding: 20px;
+    max-width: 780px;
+}
+.wsnm-settings-row{
+    margin-bottom: 30px;
+}
+.wsnm-field-row, .wsnm-field-sub-row{
+    margin-bottom: 10px;
+}
+.wsnm-field-row{
+    &.wsnm-field-row-flex{
+        display: flex;
+    }
+    p{
+        margin-bottom: 5px;
+    }
+    input:not([type=checkbox]):not([type=radio]){
+        width: 100%;
+    }
+}
+.wsnm-field-row-flex{
+    .wsnm-field-sub-row:not(:last-child){
+        margin-right: 20px;
+    }
+}
+.wsnm-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: left;
+    .wsnm-tooltip-text, .wsnm-tooltip-text p{
+        font-family: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        color: #32373C;
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .wsnm-tooltip-text{
+        visibility: hidden;
+        width: 200px;
+        background-color: #fff;
+        padding: 7px;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+        left: calc(100% + 10px);
+        opacity: 0;
+        transition: opacity 0.3s;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        &:after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            margin-left: -10px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent #32373C transparent transparent;
+        }
+    }
+    &:hover{
+        .wsnm-tooltip-text{
+            visibility: visible;
+            opacity: 1; 
+        }
+    }
+}
+.wsnm-product-list-status{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+    vertical-align: sub;
+    &.wsnm_product_paused{
+        background-color: #00A0D2;
+    }
+    &.wsnm_product_sent{
+        background-color: #46B450;
+    }
+    &.wsnm_product_waiting{
+        background-color: #23282D;
+    }
+    &.wsnm_product_unavailable{
+        background-color: #DC3232;
+    }
+}
+body.post-type-wsnm_notify_me .misc-pub-section.misc-pub-visibility{
+    display: none;
+}
+
+.notification_details_row{
+    display: flex;
+    flex-direction: column;
+    .notification_details_column{
+        padding-top: 10px;
+        &:last-child{
+            padding-bottom: 10px;
+        }
+        .notification_details_title{
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}
+body.post-type-wsnm_notify_me{
+    .page-title-action{
+        display: none;
+    }
+}
+.wsnm_send_notifications_now{
+    padding: 20px 10px;
+}
+.wsnm-disable-me{
+    &.wsnm-automatically-mode-enabled{
+        position: relative;
+        &:after{
+            content:'';
+            cursor: not-allowed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(255,255,255,0.4);
+        }
+    }
+}
+.woocommerce_options_panel p.request-in-process-notification{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #46b450;
+    color: #fff;
+}

@@ -1,0 +1,538 @@
+# Copyright (C) 2023 Get Innovation Dev.
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Back in stock notifications for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-stock-notify-"
+"me\n"
+"POT-Creation-Date: 2023-02-22T06:43:48+00:00\n"
+"PO-Revision-Date: 2023-02-22 09:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
+"n%100<=19) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: back-in-stock-notifications-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Back in stock notifications for WooCommerce"
+msgstr "Back in stock notificări pentru WooCommerce"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://www.getinnovation.dev/wordpres-plugins/woocommerce-stock-notify-me/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Woocommerce subscribe system for out of stock products."
+msgstr "Woocommerce abonament pentru produsele ce nu sunt in stoc"
+
+#. Author of the plugin
+msgid "Get Innovation Dev."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://getinnovation.dev/"
+msgstr ""
+
+#: admin/class-wsnm-admin-settings.php:48
+msgid "Notify Me - Settings"
+msgstr "Notify Me - Setări"
+
+#: admin/class-wsnm-admin-settings.php:49 admin/class-wsnm-admin.php:453
+msgid "Settings"
+msgstr "Setări"
+
+#: admin/class-wsnm-admin-settings.php:80
+msgid "General"
+msgstr "Generale"
+
+#: admin/class-wsnm-admin-settings.php:85
+msgid "Subscription Form"
+msgstr "Formular de înscriere"
+
+#: admin/class-wsnm-admin-settings.php:90
+msgid "Email Templates"
+msgstr "Șabloane de email"
+
+#: admin/class-wsnm-admin-settings.php:95
+msgid "Documentation"
+msgstr "Documentație"
+
+#: admin/class-wsnm-admin-settings.php:252
+msgid "Settings successfully updated"
+msgstr "Setările au fost actualizate cu succes"
+
+#: admin/class-wsnm-admin.php:35
+msgid "Woo Stock Notify Me requires Woocommerce to be installed."
+msgstr "Woo Stock Notify Me necesită instalarea WooCommerce."
+
+#: admin/class-wsnm-admin.php:74 admin/class-wsnm-admin.php:75
+#: admin/class-wsnm-admin.php:85 admin/parts/settings-page-template.php:3
+msgid "Notify Me"
+msgstr "Notifică-mă"
+
+#: admin/class-wsnm-admin.php:76
+msgctxt "Notify Me - Plugin"
+msgid "Add New"
+msgstr "Adaugă"
+
+#: admin/class-wsnm-admin.php:77
+msgid "Add New Subscription"
+msgstr "Adaugă un nou abonament"
+
+#: admin/class-wsnm-admin.php:78
+msgid "Edit Subscription"
+msgstr "Editează Abonamentul"
+
+#: admin/class-wsnm-admin.php:79
+msgid "New Subscription"
+msgstr "Nou Abonament"
+
+#: admin/class-wsnm-admin.php:80
+msgid "All Subscription"
+msgstr "Toate Abonamentele"
+
+#: admin/class-wsnm-admin.php:81
+msgid "View Subscription"
+msgstr "Vezi Abonamentul"
+
+#: admin/class-wsnm-admin.php:82
+msgid "Search Subscription"
+msgstr "Caută Abonament"
+
+#: admin/class-wsnm-admin.php:83
+msgid "No Subscription found"
+msgstr "Nici un abonament găsit"
+
+#: admin/class-wsnm-admin.php:84
+msgid "No Subscription found in the Trash"
+msgstr "Nici un abonament n-a fost găsit în coșul de gunoi"
+
+#: admin/class-wsnm-admin.php:119
+msgid "Details"
+msgstr "Detalii"
+
+#: admin/class-wsnm-admin.php:152 admin/class-wsnm-admin.php:308
+msgid "Name"
+msgstr "Nume"
+
+#: admin/class-wsnm-admin.php:157 admin/class-wsnm-admin.php:311
+msgid "Status"
+msgstr "Stare"
+
+#: admin/class-wsnm-admin.php:158 admin/class-wsnm-admin.php:310
+msgid "Product"
+msgstr "Produs"
+
+#: admin/class-wsnm-admin.php:194 includes/class-wsnm-helper.php:305
+msgid "Unavailable"
+msgstr "Indisponibil"
+
+#: admin/class-wsnm-admin.php:213
+msgid "Select Product"
+msgstr "Alege produsul"
+
+#: admin/class-wsnm-admin.php:289
+msgid "Download CSV"
+msgstr "Descarcă CSV"
+
+#: admin/class-wsnm-admin.php:305
+msgid "Email"
+msgstr ""
+
+#: admin/class-wsnm-admin.php:330 admin/class-wsnm-admin.php:331
+msgid "Not Available"
+msgstr "Indisponibil"
+
+#: admin/class-wsnm-admin.php:348
+msgid "Out of stock - Notifications"
+msgstr "Out of stock - Notificări"
+
+#: admin/class-wsnm-admin.php:373
+msgid "Pause Notifications."
+msgstr "Întrerupeți notificările."
+
+#: admin/class-wsnm-admin.php:374
+msgid ""
+"By default the notifications are sent for all products, check this to pause "
+"the notifications for this particular product."
+msgstr ""
+"În mod implicit, notificările sunt trimise pentru toate produsele, bifați "
+"căsuța pentru a întrerupe notificările pentru acest produs."
+
+#: admin/class-wsnm-admin.php:387
+msgid "Manually Mode"
+msgstr "Modul Manual"
+
+#: admin/class-wsnm-admin.php:388
+msgid "Check the box and save the product to send notifications."
+msgstr "Bifați caseta și salvați produsul pentru a trimite notificări."
+
+#: admin/class-wsnm-admin.php:453
+msgid "Plugin Settings"
+msgstr "Setările Produsului"
+
+#: admin/parts/emails/default-confirmation-email.php:1
+#: admin/parts/emails/default-notification-email.php:1
+msgid "Hello [wsnm-first-name] [wsnm-last-name]"
+msgstr "Salut [wsnm-first-name] [wsnm-last-name]"
+
+#: admin/parts/emails/default-confirmation-email.php:1
+msgid "Thank you for subscribing to <strong>[wsnm-product-title]</strong>"
+msgstr ""
+"Mulțumesc pentru-că te-ai abonat la <strong>[wsnm-product-title]</strong>"
+
+#: admin/parts/emails/default-confirmation-email.php:1
+msgid ""
+"You will receive an email notification once the product will be back in stock"
+msgstr ""
+"Veți primi o notificare prin e-mail odată ce produsul va fi din nou în stoc"
+
+#: admin/parts/emails/default-confirmation-email.php:2
+#: admin/parts/emails/default-notification-email.php:2
+msgid "Thank you!"
+msgstr "Mulțumesc!"
+
+#: admin/parts/emails/default-confirmation-email.php:3
+#: admin/parts/emails/default-notification-email.php:3
+msgid "Your friends at"
+msgstr "Prietenii tăi"
+
+#: admin/parts/emails/default-notification-email.php:1
+msgid ""
+"Your subscribed product <strong>[wsnm-product-title]</strong> is now back in "
+"stock for [wsnm-product-price]! The stock - [wsnm-product-quantity], and "
+"this email is not a guarantee you'll get one, so hurry to be one of the "
+"lucky shoppers who do"
+msgstr ""
+"Produsul la care v-ați abonat <strong>[wsnm-product-title]</strong> este "
+"acum din nou în stoc pentru [wsnm-product-price]! Stocul - [wsnm-product-"
+"quantity], iar acest e-mail nu este o garanție că veți obține unul, așa că "
+"grăbiți-vă să fiți unul dintre cumpărătorii norocoși care o fac."
+
+#: admin/parts/emails/default-notification-email.php:1
+msgid ""
+"Add the product <strong>[wsnm-product-title]</strong> directly to your cart: "
+"[wsnm-product-url]"
+msgstr ""
+"Adaugă produsul <strong>[wsnm-product-title]</strong> direct în coș: [wsnm-"
+"product-url]"
+
+#: admin/parts/page-email-templates.php:4
+msgid "Confirmation Email"
+msgstr "Email de confirmare"
+
+#: admin/parts/page-email-templates.php:7
+msgid ""
+"The confirmation email is sent when someone subscribes to get notifications."
+msgstr ""
+"E-mailul de confirmare este trimis atunci când cineva se abonează pentru a "
+"primi notificări."
+
+#: admin/parts/page-email-templates.php:12
+msgid "Enable the confirmation email"
+msgstr "Activați e-mailul de confirmare"
+
+#: admin/parts/page-email-templates.php:15
+msgid "Uncheck to disable the default confirmation email."
+msgstr "Debifați pentru a dezactiva e-mailul de confirmare implicit."
+
+#: admin/parts/page-email-templates.php:22
+msgid "Confirmation Email - Subject"
+msgstr "E-mail de confirmare - subiect"
+
+#: admin/parts/page-email-templates.php:28
+msgid "Confirmation Email - Content"
+msgstr "E-mail de confirmare - conținut"
+
+#: admin/parts/page-email-templates.php:57
+msgid "Back in Stock Notification Email"
+msgstr "Back in Stock Notificare Email"
+
+#: admin/parts/page-email-templates.php:60
+msgid ""
+"The back in stock notification email is sent when the product is back in "
+"stock again."
+msgstr "Acest email este trimis atunci când produsul este din nou în stoc."
+
+#: admin/parts/page-email-templates.php:67
+msgid "Back in Stock Notification Email - Subject"
+msgstr "Înapoi în stoc notificare e-mail - subiect"
+
+#: admin/parts/page-email-templates.php:73
+msgid "Back in Stock Notification Email - Content"
+msgstr "Înapoi în stoc notificare e-mail - conținut"
+
+#: admin/parts/page-email-templates.php:101
+msgid "Reset both emails - The confirmation and Back in stock notification"
+msgstr "Resetați ambele e-mailuri"
+
+#: admin/parts/page-email-templates.php:105
+#: admin/parts/page-general-settings.php:46
+#: admin/parts/page-subscription-form.php:99
+msgid "Save"
+msgstr "Salvează"
+
+#: admin/parts/page-general-settings.php:4
+msgid "Mode"
+msgstr "Mod"
+
+#: admin/parts/page-general-settings.php:8
+msgid "Manually"
+msgstr "Manual"
+
+#: admin/parts/page-general-settings.php:11
+msgid ""
+"Is the default mode. The notifications are triggered manually by "
+"administrator directly from the product page."
+msgstr ""
+"Este modul implicit. Notificările sunt declanșate manual de către "
+"administrator direct din pagina produsului."
+
+#: admin/parts/page-general-settings.php:16
+msgid "Automatically"
+msgstr "Automat"
+
+#: admin/parts/page-general-settings.php:19
+msgid ""
+"When this mode is enabled, the notifications are triggered automatically by "
+"the stock status. The notifications are sent when the product is back in "
+"stock."
+msgstr ""
+"Când acest mod este activat, notificările sunt declanșate automat de starea "
+"stocului. Notificările sunt trimise atunci când produsul este din nou în "
+"stoc."
+
+#: admin/parts/page-general-settings.php:27
+msgid "Button Style"
+msgstr "Stil buton"
+
+#: admin/parts/page-general-settings.php:30
+msgid "Change the default button style"
+msgstr "Modificați stilul implicit al butoanelor"
+
+#: admin/parts/page-general-settings.php:36
+msgid "Background color"
+msgstr "Culoarea de fundal"
+
+#: admin/parts/page-general-settings.php:40
+msgid "Text color"
+msgstr "Culoarea textului"
+
+#: admin/parts/page-subscription-form.php:4
+msgid "Form Settings"
+msgstr "Setările Formularului"
+
+#: admin/parts/page-subscription-form.php:7
+msgid "Manage the subscription form"
+msgstr "Gestionați formularul de abonare"
+
+#: admin/parts/page-subscription-form.php:13
+msgid "Enable First and Last Name"
+msgstr "Activați prenumele și numele"
+
+#: admin/parts/page-subscription-form.php:16
+msgid "Enable reCAPTCHA v2"
+msgstr "Activează reCAPTCHA v2"
+
+#: admin/parts/page-subscription-form.php:19
+msgid ""
+"Avoid any spam by enabling reCAPTCHA v2. Click <a href=\"https://www.google."
+"com/recaptcha\" target=\"_blank\">here</a> to generate the Site & Secret keys"
+msgstr ""
+"Evitați orice spam prin activarea reCAPTCHA v2. Apăsați pe <a href=“https://"
+"www.google.com/recaptcha” target=“_blank”>aici</a> pentru a genera cheile de "
+"acces"
+
+#: admin/parts/page-subscription-form.php:27
+msgid "Recaptcha Site KEY"
+msgstr ""
+
+#: admin/parts/page-subscription-form.php:33
+msgid "Recaptcha Secret KEY"
+msgstr ""
+
+#: admin/parts/page-subscription-form.php:41
+msgid "Other Settings"
+msgstr "Alte setări"
+
+#: admin/parts/page-subscription-form.php:46
+msgid "Before Form Text"
+msgstr "Antetul formularului"
+
+#: admin/parts/page-subscription-form.php:75
+msgid "After Form Text"
+msgstr "Subsolul formularului"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:26
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s an"
+msgstr[1] "%s ani"
+msgstr[2] "%s ani"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:31
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s lună"
+msgstr[1] "%s luni"
+msgstr[2] "%s luni"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:36
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s săptămână"
+msgstr[1] "%s săptămâni"
+msgstr[2] "%s săptămâni"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:41
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s zi"
+msgstr[1] "%s zile"
+msgstr[2] "%s zile"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:46
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s oră"
+msgstr[1] "%s ore"
+msgstr[2] "%s ore"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:51
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minute"
+msgstr[2] "%s minute"
+
+#. translators: %s: amount of time
+#: includes/class-action-scheduler.php:56
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s secundă"
+msgstr[1] "%s secunde"
+msgstr[2] "%s secunde"
+
+#: includes/class-action-scheduler.php:164
+msgid " (%s ago)"
+msgstr " (%s în urmă)"
+
+#: includes/class-action-scheduler.php:166
+msgid " (%s)"
+msgstr ""
+
+#: includes/class-action-scheduler.php:184
+msgid "Now!"
+msgstr "Acum!"
+
+#: includes/class-wsnm-helper.php:205
+msgid "You subscribed to [wsnm-product-title]"
+msgstr "Te-ai abonat la [wsnm-product-title]"
+
+#: includes/class-wsnm-helper.php:217
+msgid "The product [wsnm-product-title] is back in stock"
+msgstr "Produsul [wsnm-product-title] este înapoi în stoc"
+
+#: includes/class-wsnm-helper.php:314
+msgid "Sent"
+msgstr "Trimis"
+
+#: includes/class-wsnm-helper.php:319 includes/class-wsnm-helper.php:323
+msgid "Paused"
+msgstr "Întrerupt"
+
+#: includes/class-wsnm-helper.php:328
+msgid "Waiting"
+msgstr "În așteptare"
+
+#: public/class-wsnm-public.php:75 public/class-wsnm-public.php:77
+msgid "Something went wrong."
+msgstr "Ceva nu a mers bine."
+
+#: public/class-wsnm-public.php:86
+msgid "Please specify the first and last name"
+msgstr "Vă rugăm să specificați prenumele și numele de familie"
+
+#: public/class-wsnm-public.php:92
+msgid "Please specify a valid email."
+msgstr "Specificați un e-mail valid."
+
+#: public/class-wsnm-public.php:109
+msgid "Please configure reCaptcha"
+msgstr "Configurați reCaptcha"
+
+#: public/class-wsnm-public.php:114
+msgid "Please select a valid product."
+msgstr "Selectați un produs valid."
+
+#: public/class-wsnm-public.php:116
+msgid "The product doesn't exist."
+msgstr "Produsul nu există."
+
+#: public/class-wsnm-public.php:118
+msgid "Only Simple and Variable products"
+msgstr "Numai produse simple și variabile"
+
+#: public/class-wsnm-public.php:127
+msgid "Please select a valid variation."
+msgstr "Selectați o opțiune validă."
+
+#: public/class-wsnm-public.php:159
+msgid "Notification set! Thank you!"
+msgstr "Notificare setată! Multumesc mult!"
+
+#: public/class-wsnm-public.php:161
+msgid "Something went wrong"
+msgstr "Ceva nu a mers bine"
+
+#: public/class-wsnm-public.php:163
+msgid "You are already subscribed for this product"
+msgstr "Sunteți deja abonat la acest produs"
+
+#: public/class-wsnm-public.php:188 public/parts/form-modal.php:4
+#: public/parts/form-modal.php:33
+msgid "Subscribe"
+msgstr "Abonează-te"
+
+#: public/parts/after-form-content.php:1
+msgid ""
+"By entering my details and by clicking the \"Subscribe\" button, I agree "
+"that my contact details may be used to inform me about the availability of "
+"my selected or similar products and other occasional marketing materials."
+msgstr ""
+"Prin introducerea detaliilor mele și făcând clic pe butonul “Abonare”, sunt "
+"de acord ca datele mele de contact să poată fi utilizate pentru a mă informa "
+"cu privire la disponibilitatea produselor selectate sau similare și a altor "
+"materiale de marketing ocazional."
+
+#: public/parts/form-modal.php:16
+msgid "First Name ..."
+msgstr "Prenume"
+
+#: public/parts/form-modal.php:19
+msgid "Last Name ..."
+msgstr "Numele de familie"
+
+#: public/parts/form-modal.php:24
+msgid "Enter Your Email ..."
+msgstr "Email"
+
+#: public/parts/pre-form-content.php:1
+msgid ""
+"Enter your details and we will let you know as soon as this product will be "
+"available again"
+msgstr ""
+"Introduceți detaliile dvs. și vă vom anunța imediat ce acest produs va fi "
+"disponibil din nou"

@@ -1,0 +1,1 @@
+<p style="font-family: arial, helvetica, sans-serif;"><?php _e('By entering my details and by clicking the "Subscribe" button, I agree that my contact details may be used to inform me about the availability of my selected or similar products and other occasional marketing materials.', 'back-in-stock-notifications-for-woocommerce'); ?></p>

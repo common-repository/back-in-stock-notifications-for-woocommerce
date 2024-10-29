@@ -1,0 +1,1 @@
+<p style="font-family: arial, helvetica, sans-serif;"><?php _e('Enter your details and we will let you know as soon as this product will be available again', 'back-in-stock-notifications-for-woocommerce'); ?></p>

@@ -1,0 +1,3 @@
+<p><?php _e('Hello [wsnm-first-name] [wsnm-last-name]', 'back-in-stock-notifications-for-woocommerce'); ?>,</p><p><?php _e('Thank you for subscribing to <strong>[wsnm-product-title]</strong>', 'back-in-stock-notifications-for-woocommerce'); ?>.</p><p><?php _e('You will receive an email notification once the product will be back in stock', 'back-in-stock-notifications-for-woocommerce'); ?></strong>.</p>
+<em><?php _e('Thank you!', 'back-in-stock-notifications-for-woocommerce'); ?></em>
+<em><?php _e('Your friends at', 'back-in-stock-notifications-for-woocommerce'); ?> <?php echo esc_html($site_name); ?></em>
